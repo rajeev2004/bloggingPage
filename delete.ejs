@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+<%if(locals.newArray){%>
+    <div class="deletePost" style="text-align: center;">
+        <span style="font-size: 2rem;">Blog is been deleted</span><br >
+        <% for(var i=0;i<newArray.length;i++){ %>
+            <%var j=i+1;%>
+            <span style="font-size:1.5rem"><%= j+" "+newArray[i]%></span>
+            <br >
+        <%}%>
+    </div>
+<%}if(locals.del){%>
+    <div class="deletePost" style="text-align: center;">
+        <span style="font-size: 2rem;">Which Blog you want to Delete</span><br >
+        <% for(var i=0;i<del.length;i++){ %>
+            <%var j=i+1;%>
+            <span style="font-size:1.5rem"><%= j+" "+del[i]%></span>
+            <br >
+        <%}%>
+    </div>
+    <form action="/deleted" method="post">
+        <input type="text" value="Enter the number" name="index">
+        <input type="submit" value="submit">
+    </form>
+<%}%>
+<%- include("partials/footer.ejs")%>
+    

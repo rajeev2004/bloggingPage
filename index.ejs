@@ -1,0 +1,81 @@
+<%- include("partials/header.ejs") %>
+    
+<div class="container1" style="background-color: #585858;color: white;margin-top: 0px;">
+    <h1 style="font-family: 'Courier New', Courier, monospace;">EXPRESS YOUR WORDS:</h1>
+    <p>"Step into the realm of creativity where imagination knows no bounds. Together, we'll explore the art, inspiration, and endless possibilities that fuel our creative spirits."</p>
+</div>
+<div class="firstfloat" style="background-color: #eff2ff;">
+    <div class="imaging">
+        <img class="pen" src="styles/blog.png" alt="picture of iron man" >
+    </div>
+    <div>
+        <h3 style="font-style: italic;">Why Blogging</h3><br ><ul>
+            <li><em><h4>Content Sharing and Knowledge Dissemination:</h4></em><br >Blogs provide a platform to share information, expertise, and knowledge on specific topics, contributing to the overall dissemination of valuable content.</li><br >
+            <li><em><h4>Establishing Authority and Expertise:</h4></em><br >Regular blogging allows individuals and businesses to showcase their expertise in a particular field, establishing themselves as authorities or thought leaders in that niche.</li><br >
+            <li><em><h4>Building an Online Presence:</h4></em><br >Blogs contribute to building a strong online presence, making it easier for individuals or businesses to be discovered through search engines and social media.</li><br >
+            <li><em><h4>Community Building and Engagement:</h4></em><br >Blogging fosters community engagement by allowing readers to comment, share, and participate in discussions. This sense of community can lead to increased loyalty and brand advocacy.</li><br >
+            <li><em><h4>Personal Development:</h4></em><br >Blogging encourages self-reflection and continuous learning. Expressing thoughts and ideas in writing can contribute to personal development and improved communication skills.</li><br >
+        </ul>
+    </div>
+</div>
+<div class="blog">
+    <h3 style="font-style: italic;margin-top: 30px;">Take a peek at some blog articles:</h3>
+</div>
+<div class="images">
+    <div class="line1">
+        <img class="pic" src="styles/adventure1.jpg" >
+        <img class="pic" src="styles/car1.jpg" >
+        <img class="pic" src="styles/career.jpeg" >
+    </div>
+    <div class="line2">
+        <img class="pic" src="styles/gardening.jpg" >
+        <img class="pic" src="styles/god.jpg" >
+        <img class="pic" src="styles/music1.jpg" >
+    </div>
+    <div class="line3">
+        <img class="pic" src="styles/relationships.jpg" >
+        <img class="pic" src="styles/stock.jpg" >
+        <img class="pic" src="styles/niche-health-fitness-3.jpg" >
+    </div>
+</div>
+<div class="content">
+    <div class="firsthalf">
+        <form action="/adventure" method="get">
+            <input type="submit" value="Adventure" style="color: #FFFFFF;background-color: #2790e6;border: 0px;font-size: 1.5rem ;">
+        </form>
+        <hr style="color: #FFFFFF;border-width: 2px;height: 2px;" >
+        <form action="/car" method="get">
+            <input type="submit" value="Car" style="color: #FFFFFF;background-color: #2790e6;border: 0px;font-size: 1.5rem ;">
+        </form>
+        <hr style="color: #FFFFFF;" >
+        <form action="/career" method="get">
+            <input type="submit" value="Career" style="color: #FFFFFF;background-color: #2790e6;border: 0px;font-size: 1.5rem ;">
+        </form>
+        <hr style="color: #FFFFFF;" >
+        <form action="/gardening" method="get">
+            <input type="submit" value="Gardening" style="color: #FFFFFF;background-color: #2790e6;border: 0px;font-size: 1.5rem ;">
+        </form>
+        <hr style="color: #FFFFFF;" >
+    </div>
+    <div class="Secondhalf">
+        <form action="/God" method="get">
+            <input type="submit" value="God" style="color: #FFFFFF;background-color: #2790e6;border: 0px;font-size: 1.5rem ;">
+        </form>
+        <hr style="color: #FFFFFF;" >
+        <form action="/music" method="get">
+            <input type="submit" value="Music" style="color: #FFFFFF;background-color: #2790e6;border: 0px;font-size: 1.5rem ;">
+        </form>
+        <hr style="color: #FFFFFF;" >
+        <form action="/relationships" method="get">
+            <input type="submit" value="RelationShips" style="color: #FFFFFF;background-color: #2790e6;border: 0px;font-size: 1.5rem ;">
+        </form>
+        <hr style="color: #FFFFFF;" >
+        <form action="/healthAndFitness" method="get">
+            <input type="submit" value="Health" style="color: #FFFFFF;background-color: #2790e6;border: 0px;font-size: 1.5rem ;">
+        </form>
+        <hr style="color: #FFFFFF;" >
+    </div>
+</div>
+
+    
+<%- include("partials/footer.ejs") %>

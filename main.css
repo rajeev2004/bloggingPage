@@ -1,0 +1,130 @@
+/*body{
+    background-color: peachpuff !important;
+}*/
+.contain{
+    font-family: 'Times New Roman', Times, serif;
+    min-width: 100%;
+    color: white;
+    display:inline-flex;
+    gap:30px;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100px;
+    align-items: center;
+}
+.container1{
+    min-width: 100%;
+    font-style: italic;
+    display:inline-flex;
+    flex-wrap: wrap;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.firstfloat{
+    padding-top: 50px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    background-color: #eff2ff;
+}
+.pen{
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+.pen:hover{
+    margin-top: -10px;
+}
+h1{
+    font-size: 3rem;
+    text-shadow: 2px 2px 8px tan;
+}
+p{
+    font-size: 2rem;
+    text-align: center;
+}
+footer{
+    clear: left;
+}
+.pic{
+    max-width: 30%;
+    max-height: auto;
+    margin: 0px;
+}
+.line1,.line2,.line3{
+    display: inline-flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.images{
+    display: inline-flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin:0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #d3d3d3;
+    overflow: auto;
+
+}
+.pic:hover{
+    margin-top: -10px;
+}
+.firsthalf{
+    display: block;
+    text-align: center;
+}
+.Secondhalf{
+    display: block;
+    text-align: center;
+}
+.content{
+    padding-top: 10px;
+    background-color: #2790E6;
+    display:flex;
+    gap:50px;
+    flex-wrap: wrap;
+    min-width: 100%;
+    justify-content: space-evenly;
+}
+.firsthalf input:hover{
+    text-decoration: underline;
+}
+.Secondhalf input:hover{
+    text-decoration: underline;
+}
+input{
+    font-style: italic;
+}
+
+@keyframes example {
+    from{
+        color: red;margin-left: 100%;
+    }
+    75%{
+        color: blue;margin-left: 25%;
+    }
+    to{
+        color: green;margin-left: 0px;
+    }
+}
+.done{
+    text-align: center;
+    animation-name: example;
+    animation-duration: 3s;
+}
+.allThePosts{
+    animation-name: example;
+    animation-duration: 3s;
+}
+.deletePost{
+    animation-name: example;
+    animation-duration: 3s;
+}

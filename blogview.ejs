@@ -1,0 +1,10 @@
+<%- include("partials/header.ejs") %>
+<div class="allThePosts" style="text-align: center;">
+    <span style="font-size: 2rem;">All the Blogs You have Posted</span><br >
+    <% for(var i=0;i<blogs.length;i++){ %>
+        <%var j=i+1;%>
+        <span style="font-size:1.5rem"><%= j+" "+blogs[i]%></span>
+        <br >
+    <%}%>
+</div>
+<%- include("partials/footer.ejs") %>
